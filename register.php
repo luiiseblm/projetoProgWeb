@@ -1,16 +1,17 @@
 <div class="register">
 
-    <h1>REGISTRO</h1>
-    <input type="text" placeholder="NOME COMPLETO">
+    <h1>REGISTRO DE CLIENTE</h1>
+    <form method ="post" action = "processa.php">
+    <input type="text" name="nomecliente" placeholder="NOME">
     <br><br>
-    <input typer="number" placeholder="CPF">
+    <input typer="number" name="cpfcliente" placeholder="CPF">
     <br><br>
-    <input typer="number" placeholder="NASCIMENTO">
+    <input typer="number" name="nascimentocliente" placeholder="NASCIMENTO">
     <br><br>
-    <input typer="password" placeholder="SENHA">
+    <input typer="password" name="senhacliente" placeholder="SENHA">
     <br><br>
     <button>registrar</button>
-
+    </form>
 
 
 

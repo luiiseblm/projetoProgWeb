@@ -1,17 +1,19 @@
 <div class="registeradv">
 
 <h1>REGISTRO DE ADVOGADOS</h1>
-<input type="text" placeholder="NOME">
+<form method ="post" action = "processaadv.php">
+<input type="text" name = "nomeadv" placeholder="NOME">
 <BR><BR>
-<input type="number" placeholder="CPF">
+<input type="number" name="cpfadv" placeholder="CPF">
 <BR><BR>
-<input type="texxt" placeholder="EMAIL">
+<input type="text" name ="emailadv" placeholder="EMAIL">
 <br><br>
-<input type="NUMBER" placeholder="NASCIMENTO">
+<input type="number" name="nascimentoadv" placeholder="NASCIMENTO">
 <BR><BR>
-<input type="number" placeholder="OAB">
+<input type="number" name ="oabadv" placeholder="OAB">
 <br><br>
 <button>REGISTRAR</button>
+</form>
 
 
 
