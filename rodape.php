@@ -9,6 +9,6 @@
 
 
 <h2> QUEM SOMOS</h2>
-<p>escritorio digital com o intuito de facilitar as burocracias do dia a dia das dos advogados e seus clientes</P> 
+<p>Escritorio digital com o intuito de facilitar as burocracias do dia a dia dos nossos advogados e seus clientes</P> 
 
 </body>

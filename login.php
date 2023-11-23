@@ -1,11 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="" class="h-100">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      |
+    />
+    <link rel="stylesheet" href="Css/Estilo.css" />
+    <link rel="stylesheet" href="/ProjetoPhp/Dark&light.css" />
 
-    <div class="login">
-        <h1>LOGIN</h1>
-        <input type="text" placeholder="CPF OU EMAIL">
-        <br><br>
-        <input type="password" placeholder="SENHA">
-        <br><br>
-        <button>ENTRAR</button>
-        <a href="register.php">REGISTRO</a>
-
-    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+  </head>
+  <body class="d-flex align-items-center py-4 bg-body-tertiary h-100">
+    <main class="w-100 m-auto form-container">
+      <form>
+        <img
+          src="/ProjetoPhp/img/Ab.jpg"
+          class="mb-"
+          height="80"
+          width="80"
+          alt=""
+          style="padding-bottom: 25px"
+        />
+        <h1
+          class="h3 mb-3 fw-normal"
+          style="
+            font-family: 'ballet', cursive;
+            font-size: 70px;
+            background: linear-gradient(
+              to right,
+              red,
+              blue,
+              black,
+              green,
+              lightgreen,
+              blue,
+              yellow,
+              orange,
+              red,
+              pink,
+              purple,
+              red,
+              blue,
+              darkred,
+              darkblue,
+              black
+            );
+            -webkit-background-clip: text;
+            color: transparent;
+          "
+        >
+          Login
+        </h1>
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="exemplo@exemplo.com"
+          />
+          <label for="floatingInput">E-mail</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="Password"
+            class="form-control"
+            id="floatingInput"
+            placeholder="senha"
+          />
+          <label for="floatingInput">Senha</label>
+        </div>
+        <div class="form-check text-start my-3">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="flexcheckdefault"
+          />
+          <label class="fomr-check-label" for="flexcheckdefault">Lembrar</label>
+        </div>
+        <button
+          class="btn btn-primary w-100 py-2 rotate Jurubeba hover"
+          style="font-size: 20px; color: White"
+        >
+          Acessar
+        </button>
+        <p
+          class="text-body-secondary mt-5 mb-3"
+          style="font-size: 10px; floating; left;"
+        >
+          © Nós Temos o Hulk
+        </p>
+      </form>
+    </main>
+  </body>
+</html>

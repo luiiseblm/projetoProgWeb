@@ -1,3 +1,5 @@
+
+
 <?php
  include_once ("conexao.php");
 
@@ -18,3 +20,4 @@ $result_advogados = "INSERT INTO advogados (nomeadv, cpfadv, emailadv, nasciment
 $resultado_advogados = mysqli_query($conexao, $result_advogados);
 
 ?>
+   
