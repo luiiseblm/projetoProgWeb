@@ -12,6 +12,8 @@
 <BR><BR>
 <input type="number" name ="oabadv" placeholder="OAB">
 <br><br>
+<input type="text" name="enderecoadv" placeholder="ENDEREÇO">
+<br><br>
 <button>REGISTRAR</button>
 </form>
 

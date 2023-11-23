@@ -10,6 +10,8 @@
     <br><br>
     <input typer="password" name="senhacliente" placeholder="SENHA">
     <br><br>
+    <input type="text" name="enderecocliente" placeholder="ENDEREÇO">
+    <br><br>
     <button>registrar</button>
     </form>
 
