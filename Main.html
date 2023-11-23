@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Takamassa Nomuro</title>
+    <link rel="stylesheet" href="css/Estilo.css" />
+    <link rel="stylesheet" href="/ProjetoPhp/teste.html" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@700&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Dancing+Script:wght@700&family=Great+Vibes&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Great+Vibes&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fleur+De+Leah&family=Great+Vibes&family=Mea+Culpa&family=Nabla&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Adicione o estilo do botão e do dropdown aqui */
+      .dropdown-btn {
+        background-color: none;
+        background: none;
+        color: black;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        position: relative;
+      }
+
+      .dropdown-btn::after {
+        content: "\2630"; /* Código Unicode para três traços horizontais */
+        font-size: 30px;
+        margin-left: 8px;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 160px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
+
+      .dropdown-btn:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="icone"></div>
+    <h3
+      style="
+        font-size: 60px;
+        font-family: Mea Culpa, cursive;
+        margin-top: 90px;
+        text-align: center;
+      "
+    >
+      Adv Box
+    </h3>
+
+    <div style="margin-bottom: 30vh; margin-bottom: 40px"></div>
+    <ul>
+      <li>
+        <a
+          href="Quemsomos"
+          style="font-size: 25px; font-family: great vibes"
+          class="link"
+          >Quem Somos</a
+        ><br />
+      </li>
+
+      <li>
+        <a
+          href="faleconosco"
+          style="font-size: 25px; font-family: great vibes"
+          class="link"
+          >Fale Conosco</a
+        >
+        <a
+          href="Contatos.html"
+          style="font-size: 20px; font-family: great vibes"
+          class="link"
+          >Contatos</a
+        >
+
+        <br />
+      </li>
+    </ul>
+    <div class="dropdown">
+      <button
+        style="font-size: 30px; font-family: Fleur De Leah"
+        class="dropdown-btn"
+      >
+        Menu
+      </button>
+      <div class="dropdown-content">
+        <a
+          style="font-size: 20px; font-family: Dancing Script"
+          href="Login.html"
+          >Login</a
+        >
+        <a
+          style="font-size: 20px; font-family: Dancing Script"
+          href="cadastro.html"
+          >Cadastro</a
+        >
+        <a
+          style="font-size: 20px; font-family: Dancing Script"
+          href="Cadastroadv.html"
+          >Cadastro de Adv</a
+        >
+      </div>
+    </div>
+    <header>
+      <img src="" alt="" />
+    </header>
+
+    <!-- Adicione o seguinte script para tornar o dropdown funcional -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var dropdownBtn = document.querySelector(".dropdown-btn");
+        dropdownBtn.addEventListener("click", function () {
+          var dropdownContent = document.querySelector(".dropdown-content");
+          dropdownContent.style.display =
+            dropdownContent.style.display === "block" ? "none" : "block";
+        });
+      });
+    </script>
+  </body>
+  ,
+</html>

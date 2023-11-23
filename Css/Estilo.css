@@ -1,0 +1,160 @@
+body {
+  background-image: url(/ProjetoPhp/img/branco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.form-container {
+  max-width: 350px;
+  padding: 1rem;
+}
+
+#icone {
+  /* minha id do icone TN*/
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 80px;
+  background-image: url("/ProjetoPhp/img/Ab.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#iconee {
+  /* minha id do icone escritorio*/
+  position: absolute;
+  float: left;
+  top: 110px;
+  left: 20px;
+  width: 100%;
+  height: 65px;
+  background-image: url(/ProjetoPhp/img/taka.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#lambreta {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+#lambreta {
+  /* id de teste, se trata do fundo branco com letras vermelhas, possivel troca */
+  color: red;
+  border: 10px double;
+  border-radius: 50px;
+  text-align: center;
+  background: white;
+  padding: 10px;
+}
+
+.botao:hover {
+  /*class=" hover" */
+  background-size: cover;
+  background-color: red;
+}
+
+.borda {
+  /*sem borda mas pode trocar, complemento do hover  */
+  color: red;
+  text-decoration: none;
+  padding: 3px;
+}
+
+.espaco {
+  /*teste de espaço pra centralizar */
+  text-align: center;
+  background: /* Adicione a cor desejada */ ;
+}
+
+.link {
+  /*link basico com hover*/
+  color: black;
+  text-decoration: none;
+  margin-right: 10px; /* Espaçamento entre os links */
+}
+
+.link:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+.southland-font {
+  /*class southland mas não ficou igual */
+  font-family: "Southland";
+}
+
+.Login {
+  /* float pra alinhar no canto direito o login, não está mais utilizado, pode ser feito com display: inline-block*/
+  float: right;
+}
+.Cadastro {
+  /* msm coisa do login */
+  float: right;
+}
+
+p {
+  /*PARAGRAFO */
+  text-align: center;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: white;
+  color: black;
+}
+ul {
+  /* fundo pra complemento de "li", links */
+
+  text-decoration: none;
+  text-align: center;
+}
+li {
+  /* link centralizado um ao lado do outro */
+  display: inline-block;
+  padding: 0.5%;
+  text-align: center;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.gradient-button {
+  /* botão grandiente da direita para esquerda, na ordem de cor vermelho, azul, roxo, verde. verde claro e amarelo */
+  background: linear-gradient(
+    to right,
+    red,
+    purple,
+    green,
+    orange,
+    blue,
+    darkblue,
+    lightblue,
+    red,
+    pink,
+    greenyellow
+  );
+  border: none;
+  color: gray;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.Jurubeba {
+  background: radial-gradient(
+    to top,
+    red,
+    blue,
+    lightblue,
+    green,
+    lightgreen,
+    yellow,
+    gold
+  );
+}
